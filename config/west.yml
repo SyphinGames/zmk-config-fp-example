@@ -24,9 +24,3 @@ manifest:
       remote: sadekbaroudi
       revision: main
       import: config/deps.yml
-  self:
-    path: config
-  - board: nice_nano_v2
-    shield: swweeep_left
-  - board: nice_nano_v2
-    shield: swweeep_right
