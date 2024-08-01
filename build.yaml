@@ -17,8 +17,9 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-include:
+  self:
+    path: config
   - board: nice_nano_v2
-    shield: ffkb_v2
+    shield: swweeep_left
   - board: nice_nano_v2
-    shield: rock_on_v1
+    shield: swweeep_right
