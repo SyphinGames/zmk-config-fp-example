@@ -24,3 +24,5 @@ manifest:
       remote: sadekbaroudi
       revision: main
       import: config/deps.yml
+  self:
+    path: config
