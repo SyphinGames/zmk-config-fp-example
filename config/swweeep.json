@@ -1,4 +1,6 @@
 {
+  "id": "swweeep",
+  "name": "swweeep",
   "layouts": {
     "Default": {
       "layout": [
@@ -40,5 +42,6 @@
         { "x":  8, "y": 3 }
       ]
     }
-  }
+  },
+  "sensors": []
 }
