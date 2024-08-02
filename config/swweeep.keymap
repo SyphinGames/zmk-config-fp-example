@@ -59,7 +59,7 @@
 
         default_layer {
             bindings = <
-&mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T  &mt NUMBER_6 Y  &mt N7 U  &mt N8 I  &mt N9 O  &mt N0 P  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &mt SEMICOLON SQT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp DEL  &kp LEFT_SHIFT  &lt 1 ENTER  &kp SPACE  &lt 2 LS(LCTRL)  &lt 3 ESCAPE
+&mt NUMBER_1 Q  &mt NUMBER_2 W  &mt NUMBER_3 E  &mt NUMBER_4 R  &mt N5 T  &mt NUMBER_6 Y  &mt N7 U  &mt N8 I  &mt N9 O  &mt N0 P  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &mt SEMICOLON SQT  &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LCTRL  &kp LEFT_SHIFT  &kp BACKSPACE  &kp SPACE  &lt 1 ENTER  &lt 2 ESCAPE
             >;
         };
 
