@@ -76,7 +76,7 @@
             #binding-cells = <0>;
             bindings = <&kp SLASH>, <&to 3>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <300>;
         };
     };
 
