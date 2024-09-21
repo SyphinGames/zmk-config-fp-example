@@ -69,6 +69,15 @@
             #binding-cells = <0>;
             bindings = <&kp V>, <&kp B>;
         };
+
+        Gamer: Gamer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "GAMER";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH>, <&to 3>;
+
+            tapping-term-ms = <100>;
+        };
     };
 
     keymap {
@@ -76,7 +85,7 @@
 
         default_layer {
             bindings = <
-&hm NUMBER_1 Q  &hm NUMBER_2 W  &hm NUMBER_3 E  &hm NUMBER_4 R  &hm N5 T  &hm NUMBER_6 Y  &hm N7 U  &hm N8 I  &hm N9 O  &hm N0 P  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &mt SQT SEMICOLON  &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &lt 3 SLASH  &ca  &mt LEFT_GUI ESCAPE  &kp BACKSPACE  &kp SPACE  &lt 1 ENTER  &lt 2 LEFT_ALT
+&hm NUMBER_1 Q  &hm NUMBER_2 W  &hm NUMBER_3 E  &hm NUMBER_4 R  &hm N5 T  &hm NUMBER_6 Y  &hm N7 U  &hm N8 I  &hm N9 O  &hm N0 P  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &mt SQT SEMICOLON  &mt LEFT_SHIFT Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp PERIOD  &Gamer  &ca  &mt LEFT_GUI ESCAPE  &kp BACKSPACE  &kp SPACE  &lt 1 ENTER  &lt 2 LEFT_ALT
             >;
         };
 
@@ -94,7 +103,7 @@
 
         GAMER {
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp E  &rt  &kp F20  &kp N1  &kp N2  &kp N3  &kp MINUS  &kp LSHFT  &kp A  &kp S  &kp D  &fg  &kp F19  &kp N4  &kp N5  &kp N6  &kp N0  &kp LCTRL  &kp Z  &kp X  &kp C  &vb  &kp F18  &kp N7  &kp N8  &kp N9  &kp ENTER  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SPACE  &trans  &trans  &trans
+&kp ESC  &kp Q  &kp W  &kp E  &rt  &kp F20  &kp N1  &kp N2  &kp N3  &kp MINUS  &kp LSHFT  &kp A  &kp S  &kp D  &fg  &kp F19  &kp N4  &kp N5  &kp N6  &kp N0  &kp LCTRL  &kp Z  &kp X  &kp C  &vb  &kp F18  &kp N7  &kp N8  &kp N9  &kp ENTER  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SPACE  &kp BACKSPACE  &kp LEFT_GUI  &to 0
             >;
         };
     };
