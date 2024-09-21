@@ -11,7 +11,9 @@ manifest:
       import: app/west.yml
     - name: hammerbeam-slideshow          #new entry
       remote: gpeye                       #new entry
-      revision: main                      #new entry
+      revision: main               
+  self:
+    path: config
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: sadekbaroudi
