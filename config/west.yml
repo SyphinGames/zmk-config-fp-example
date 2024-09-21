@@ -1,10 +1,13 @@
 manifest:
+  remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: sadekbaroudi
       url-base: https://github.com/sadekbaroudi
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: gpeye
+      url-base: https://github.com/GPeye
   projects:
     - name: zmk
       remote: petejohanson
@@ -14,8 +17,8 @@ manifest:
       remote: sadekbaroudi
       revision: main
       import: config/deps.yml
-       remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
+    - name: hammerbeam-slideshow          #new entry
+      remote: gpeye                       #new entry
+      revision: main               
+  self:
+    path: config
