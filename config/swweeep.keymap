@@ -16,10 +16,9 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_undo {
-            timeout-ms = <50>;
+        Caps_Loc {
+            bindings = <&kp CAPSLOCK>;
             key-positions = <20 21>;
-            bindings = <&kp LC(Z)>;
         };
     };
 };
