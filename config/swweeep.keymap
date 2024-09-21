@@ -54,7 +54,7 @@
 
         nav_layer {
             bindings = <
-&kp ESC  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &kp LC(C_AC_DESKTOP_SHOW_ALL_WINDOWS)  &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp END  &kp FSLH  &kp N4  &kp N5  &kp N6  &kp PLUS  &none  &none  &kp MINUS  &kp PLUS  &none  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp MINUS  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp END  &kp FSLH  &kp N4  &kp N5  &kp N6  &kp PLUS  &kp GRAVE  &kp PRINTSCREEN  &kp MINUS  &kp PLUS  &kp K_CALCULATOR  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
