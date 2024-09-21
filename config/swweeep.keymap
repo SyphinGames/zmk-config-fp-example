@@ -5,10 +5,7 @@
 #define DEFAULT 0
 #define NAV     1
 #define SYM     2
-#define FUNC    3
-#define MEDIA   4
-#define NUMLFT  5
-#define NUMRHT  6
+#define GAM     3
 
 &caps_word { continue-list = <UNDERSCORE MINUS>; };
 
